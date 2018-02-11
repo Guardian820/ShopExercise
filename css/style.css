@@ -1,0 +1,180 @@
+
+#toggle_navbar{
+	height:20;
+}
+a{
+	font-weight: 900;
+	color:rgb(45,45,45);
+}
+a:hover{
+	text-decoration: none;
+	color:rgb(45,45,45);
+}
+button{
+	border:1px solid rgb(215,215,215);
+	background-color:rgb(235,235,235);
+	padding:5 15 5 15;	
+	font-weight: 900;
+}
+
+button:hover{
+	background-color:rgb(255,255,255);
+}
+
+.form_input{
+	font-weight: 900;
+	margin-bottom:1%;
+	padding:5;
+	border:none;
+	background-color:rgb(235,235,235);
+}
+.form_input:focus{
+	background-color:rgb(255,255,255);
+}
+#main_image{
+	margin-top:3%;
+	height:65%;
+	width:100%;
+}
+
+#logo{
+	width:5%;
+	height:100%;
+
+	margin-left:50%;
+	margin-right:50%;
+}
+
+#header{
+	position:fixed;
+	padding:1%;	
+	border-bottom:2px solid rgb(215,215,215);
+	z-index: 10;
+	background-color:rgb(255,255,255);
+}
+
+#nav_ul{
+	list-style:none;
+}
+
+#nav_ul li{
+	
+	text-align:center;
+}
+
+.menu_link{
+	
+	color:rgb(45,45,45);
+}
+
+.menu_link:hover{
+	border-left:2px solid rgb(215,215,215);
+	border-right:2px solid rgb(215,215,215);
+}
+
+.dropdown_content{
+	display:none;
+	position:absolute;
+	margin-top:30%;
+	text-align:left;
+}
+
+.dropdown_link{
+	color:rgb(45,45,45);
+	display:block;
+	padding: 12px 16px;
+	background-color:rgb(255,255,255);
+}
+
+.dropdown_link:hover{
+	background-color:rgb(215,215,215);
+}
+
+#nav_ul li:hover .dropdown_content{
+    display: block;
+}
+
+#wrapper{
+	padding-top:2%;
+}
+
+.item{
+	margin-top:8%;
+	height:30%;
+	text-align:center;
+}
+
+.item_image{
+	height:90%;
+}
+
+
+#content_buttons{
+	margin-top:4%;
+}
+.content_control{
+	padding:1.5%;
+	padding-left:3%;
+	padding-right:3%;
+	background-color:rgb(230,230,230);
+}
+#prev{
+	float:left;
+}
+
+#next{
+	float:right;
+}
+
+#individual_post{
+	margin-top:8%;
+}
+#create_post{
+	margin-top:8%;
+}
+
+#post_image{
+	max-height: 500px;
+	height: 70%;
+	max-width:100%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	#create_post{
+		margin-top:20%;
+	}
+	#main_image{
+		margin-top:20%;
+	}
+	#individual_post{
+		margin-top:20%;
+	}
+	#content{
+		margin-top:20%;
+	}
+	#nav_ul li{		
+		margin-bottom:20;
+	}
+
+	#content_buttons{
+		margin-top:10%;
+	}
+
+	.item{
+		height:50%;
+	}
+
+	#go_back{
+		float:right;
+	}
+	.form_input{
+		margin-bottom:5%;
+
+	}
+
+}
+
+
